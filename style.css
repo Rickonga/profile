@@ -1,0 +1,111 @@
+body {
+  background-color: cae8d5;
+  font-family: 'Lato', sans-serif;
+  color: dbdbdb;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: yellow;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: yellow;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h4 {
+  color: 342ead;
+}
+
+h5 {
+  color: red;
+}
+
+a {
+  color: 120136;
+  text-decoration: none;
+  font-weight: px;
+}
+
+a:hover {
+  color: rgba(41, 129, 129, 0.82);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 550px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/*80% witdth of the parent .container*/
+  .img-list {
+    margin: 0px auto 40px auto;
+    width: 80%;
+  }
+
+/*width 100% makes the image expand to the with of the parent element (in this case img-list)*/
+/*Img fit hte width of the parent element*/
+.img-list img {
+  width: 100%;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.card-light-green {
+  background-color: 4cbbb9;
+  padding: 40px;
+  border: 2px solid 4cbbb9;
+  margin: 20px 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-red {
+  background-color: eb4559;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+}
+
+.btn-div {
+  margin-top: 40px;
+}
